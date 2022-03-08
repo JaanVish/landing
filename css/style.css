@@ -7018,3 +7018,50 @@ ul.service-menu .children li:last-child {
 	border: solid 5px #333333;
 	border-radius: 5px;
 }
+
+.cta-section {
+  background: rgba(0, 0, 0, 0) url("https://images.pexels.com/photos/257740/pexels-photo-257740.jpeg?w=940&h=650&auto=compress&cs=tinysrgb") no-repeat scroll left top / cover;
+  padding: 55px 0;
+}
+.black-trans-bg {
+  position: relative;
+}
+
+.sec{
+  display: inline-block;
+}
+
+.sec h2 {
+  color: #fff;
+  font-size: 16px;
+  line-height: 0px;
+  padding: 16px 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+.sec p {
+  color: #fff;
+  font-weight: bold;
+  font-size: 22px;
+  padding: 16px 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+.cta-title a {
+  margin-top:26px;
+  background-color: #fd9b00;
+  color: #fff;
+  display: inline-block;
+  float: right;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0;
+  padding: 9px 18px;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.cta-title {
+  text-align: center;
+}
