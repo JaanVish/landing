@@ -826,3 +826,30 @@ border:0;
 .site-logo{
 display: inline-block;
 }
+
+.modal-content
+{
+    background: rgba(255, 255, 255);	
+}
+
+
+.rotated
+{
+    display: inline-block;
+    position: fixed;
+    top: 55%;
+    right: 0px;
+    width: 60px;
+    height: 60px;
+    line-height: 50px;
+    text-align: center;
+
+	-moz-transform:rotate(-90deg);
+    -ms-transform:rotate(-90deg);
+    -o-transform:rotate(-90deg);
+    -webkit-transform:rotate(-90deg);
+    transform-origin: top left;  
+}
+
+
+

@@ -765,45 +765,73 @@
     <!--Scroll to top-->
     <a id="scroll-top" class="backtotop" href="#page-top"><i class="fa fa-angle-up"></i></a>
 
-    <!--Color switcher-->
+            <div class="container-box rotated">
+                <button type="button" class="btn btn-info btn-lg turned-button" data-toggle="modal" data-target="#myModal">Contact Us</button>
+                </div>
+                
+                <!-- Modal -->
+                <div id="myModal" class="modal fade" role="dialog">
+                  <div class="modal-dialog">
+                
+                <!-- Modal content-->
+                <div class="modal-content">
+                <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">×</button>
+                <h4 class="modal-title">Contact Us</h4>
+                </div>
+                <div class="modal-body">
+                
+                    <form class="form-group" action="mail.php" method="POST">
+                        <div class="form-group">
+
+                            <input type="text" class="form-control" name="first_name" placeholder="Enter your name"
+                                required>
+                            <input type="hidden" class="form-control" name="website" value="packersmoversghaziabad">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="mobile" class="form-control"
+                                placeholder=" Enter your mobile number" required>
+
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="shiftfrom" class="form-control" placeholder="Shift from"
+                                required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="shiftto" class="form-control" placeholder="Shift to" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" class="form-control"
+                                placeholder="Enter your email address" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="message" class="form-control" placeholder="Additional query"
+                                required>
+                        </div>
+                        <div class="from-group">
+                            <input type="submit" name="submit" class="btn btn-lg btn-danger" value="submit"
+                                required>
+                        </div>
+
+                    </form>
+                    <div id="success_message" style="width:100%; height:100%; display:none; ">
+                        <h3>Sent your message successfully!</h3>
+                    </div>
+                    <div id="error_message"
+                    style="width:100%; height:100%; display:none; ">
+                        <h3>Error</h3>
+                        Sorry there was an error sending your form.
+                
+                    </div>
+                </div>
+                
+                </div>
+                
+                 </div>
+                </div>
 
     <!-- jquery Liabrary -->
     <script src="js/jquery-1.12.4.min.js"></script>
-    <!-- <div id="popup">
-    
-<h3>Call 7070675312</h3>
-<h3>Please Fill  Form</h3>
-
-<div class="row body">
-         <form class="form-group" action="mail.php" method="POST">
-              <div class="form-group">
-                 
-                  <input type="text" class="form-control" name="first_name" placeholder="Enter your name" required>
-                  <input type="hidden" class="form-control" name="website" value = "packersmoversghaziabad">
-              </div>
-              <div class="form-group">
-                  <input type="text" name="mobile" class="form-control" placeholder=" Enter your mobile number" required>
-                  
-              </div>
-              <div class="form-group">
-                  <input type="text" name="shiftfrom" class="form-control" placeholder="Shift from" required>
-              </div>
-              <div class="form-group">
-                  <input type="text" name="shiftto" class="form-control" placeholder="Shift to" required>
-              </div>
-              <div class="form-group">
-                  <input type="email" name="email" class="form-control" placeholder="Enter your email address" required>
-              </div>
-                <div class="form-group">
-                  <input type="text" name="message" class="form-control" placeholder="Additional query" required>
-              </div>
-              <div class="from-group">
-                  <input type="submit" name="submit" class="btn btn-lg btn-danger" value="submit" required>
-              </div>
-            
-          </form>  
-  </div>	
-	</div> -->
     <!-- bootstrap v3.3.6 js -->
     <script src="js/bootstrap.min.js"></script>
     <!-- <script>
@@ -870,6 +898,12 @@
             header.classList.remove("sticky");
           }
         }
+
+        $(window).load(function(){
+        setTimeout(function() {
+                $('#myModal').modal('show');
+        }, 3000);
+            });
         </script>
 </body>
 
