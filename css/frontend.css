@@ -688,3 +688,76 @@ border:0;
 	margin-right: 5px;
 }
 .tracksidebar{padding:0 10px 0 40px;border-left:1px solid #f4f4f4;}
+
+
+
+.counter-area .counter-contant .counter-card i {
+    position: absolute;
+    left: 10px;
+    color: #f7941d;
+    font-size: 70px;
+}
+
+.counter-area .counter-contant {
+    max-width: 950px;
+    margin: auto;
+    padding: 65px 0 35px;
+}
+
+.bx {
+    font-family: 'boxicons'!important;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    display: inline-block;
+    text-transform: none;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.counter-area {
+    background: #321e43;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    top: 100px;
+    z-index: 1;
+}
+
+.counter-area .counter-contant {
+    max-width: 950px;
+    margin: auto;
+    padding: 65px 0 35px;
+}
+
+.counter-area .counter-contant .counter-card {
+    padding-left: 80px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.counter-area .counter-contant .counter-card h3 {
+    color: #fff;
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+
+.counter-area .counter-contant .counter-card p {
+    color: #fff;
+}
+
+@media only screen and (max-width: 767px){
+    .counter-area .counter-contant .counter-card {
+    margin-bottom: 30px;
+    text-align: center;
+    padding-left: 0;
+}
+.counter-area .counter-contant {
+    padding: 65px 0 35px;
+}
+.counter-area .counter-contant .counter-card i {
+    position: relative;
+}
+}
