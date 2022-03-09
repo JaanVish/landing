@@ -38,7 +38,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/responsive.css" rel="stylesheet">
-
+<style>
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 80%;
+}
+</style>
 </head>
 
 <body class="home header-sticky header-v4 hide-topbar-mobile">
@@ -87,7 +93,7 @@
         <header id="masthead" class="site-header clearfix">
             <div class="header-main clearfix">
                 <div class="container mobile_relative">
-                    <div class="site-contact clearfix site-menu2">
+                    <div class="site-contact clearfix" id="myHeader">
 
                         <div class="site-logo">
                             <a href="index.html" class="logo">
@@ -850,6 +856,21 @@
     <!-- script JS  -->
     <script src="js/scripts.min.js"></script>
     <script src="js/script.js"></script>
+
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+          } else {
+            header.classList.remove("sticky");
+          }
+        }
+        </script>
 </body>
 
 </html>
