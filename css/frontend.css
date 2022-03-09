@@ -523,7 +523,6 @@ font-weight: 400;}
 .homeserv-4{
 	
 	background:#f7f7f7;
-	padding-bottom:60px;
 }
 .homeserv-4 .row{margin-top: -80px;}
 .header-v4  .fh-section-title h2 {
@@ -722,7 +721,6 @@ border:0;
     background-position: center center;
     background-size: cover;
     position: relative;
-    top: 100px;
     z-index: 1;
 }
 
