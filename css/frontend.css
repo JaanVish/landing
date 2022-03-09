@@ -826,3 +826,7 @@ border:0;
 .header-v4 .site-contact{
     padding: 10px !important;
 }
+
+.site-logo{
+display: inline-block;
+}
