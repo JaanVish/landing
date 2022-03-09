@@ -760,6 +760,10 @@ border:0;
 .counter-area .counter-contant .counter-card i {
     position: relative;
 }
+
+.cta-title a{
+    float: none !important;
+}
 }
 
 .service-card-two .service-caption {
