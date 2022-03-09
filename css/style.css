@@ -916,6 +916,8 @@ div.aligncenter,
 }
 .site-logo .show-logo {
   display: inline-block;
+  height: 50px;
+
 }
 .topbar {
   background-color: #0c1239;
@@ -1304,10 +1306,6 @@ div.aligncenter,
 .header-v3 .site-header,
 .header-v4 .site-header {
   padding: 0;
-}
-.header-v3 .site-logo,
-.header-v4 .site-logo {
-  float: left;
 }
 .header-v3 .site-header-widget,
 .header-v4 .site-header-widget {
