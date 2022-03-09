@@ -762,6 +762,9 @@ border:0;
 .cta-title a{
     float: none !important;
 }
+.site-logo {
+   display: block !important;
+}
 }
 
 .service-card-two .service-caption {
@@ -797,11 +800,6 @@ border:0;
 
 .service-card-two .service-caption p {
     margin-bottom: 20px;
-}
-
-.ptb-100 {
-    padding-top: 100px;
-    padding-bottom: 100px;
 }
 
 .our-services-area {
